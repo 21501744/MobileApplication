@@ -94,7 +94,7 @@ $(function () {
   $("#contact-form input[data-type=file], #contact-form input[data-type=image]").on("change",function(){
     $(this).data("uploadedfiles",[]);    
   });
-  var apikey = "{{5d279e7de25f837b3b80a3a1}}"; // TODO: INSERT YOUR CORS API KEY HERE OR add formapikey to settings
+  var apikey = "{{d2a51b65be3d7455845b01316e256579b5c6c}}"; // TODO: INSERT YOUR CORS API KEY HERE OR add formapikey to settings
   
   if (!apikey) alert("Please insert a CORS API key");
 
@@ -104,7 +104,7 @@ $(function () {
     "url": "https://onpointsolution-af73.restdb.io/rest/contact",
     "method": "POST",
     "headers": {
-      "x-apikey": apikey,
+      "x-apikey": d2a51b65be3d7455845b01316e256579b5c6c,
       "content-type": "application/json"
     },
     "processData": false
